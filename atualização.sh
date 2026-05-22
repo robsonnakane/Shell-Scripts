@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ###Fedora Silverblue###
 ###Atualização completa do sistema###
 
@@ -40,7 +42,7 @@ distrobox enter archlinux -- sudo pacman -Syyuu --noconfirm;
 #rpm-ostree rebase fedora:fedora/44/x86_64/silverblue;
 
 ##Instalação dos programas Flatpak##
-#flatpak install flathub com.spotify.Client -y;flatpak install flathub us.zoom.Zoom -y; flatpak install flathub org.onlyoffice.deskeditors -y; flatpak install flathub com.adobe.Flash-Player-Projector -y; flatpak install flathub com.github.IsmaelMartinez.teams_for_linux -y; flatpak install flathub org.chromium.Chromium -y; flatpak install flathub org.fedoraproject.MediaWriter -y; flatpak install flathub org.kde.kget -y; flatpak install flathub org.videolan.VLC -y; flatpak install flathub net.mkiol.SpeechNote -y; flatpak install flathub com.saivert.pwvucontrol -y; flatpak install flathub io.github.dvlv.boxbuddyrs -y; flatpak install flathub org.telegram.desktop -y; flatpak install flathub com.obsproject.Studio -y; flatpak install flathub org.audacityteam.Audacity -y;
+#flatpak install flathub com.spotify.Client -uy;flatpak install flathub us.zoom.Zoom -uy; flatpak install flathub org.onlyoffice.deskeditors -uy; flatpak install flathub com.adobe.Flash-Player-Projector -uy; flatpak install flathub com.github.IsmaelMartinez.teams_for_linux -uy; flatpak install flathub org.chromium.Chromium -uy; flatpak install flathub org.fedoraproject.MediaWriter -uy; flatpak install flathub org.kde.kget -uy; flatpak install flathub org.videolan.VLC -uy; flatpak install flathub net.mkiol.SpeechNote -uy; flatpak install flathub com.saivert.pwvucontrol -uy; flatpak install flathub io.github.dvlv.boxbuddyrs -uy; flatpak install flathub org.telegram.desktop -uy; flatpak install flathub com.obsproject.Studio -uy; flatpak install flathub org.audacityteam.Audacity -uy; flatpak install flathub com.github.tchx84.Flatseal -uy;
 
 ##Atualização do Flatpak##
 flatpak update -y;
