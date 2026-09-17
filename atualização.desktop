@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=atualização.sh
+GenericName=System Upgrade
+Comment=Resource monitor that shows usage and stats for processor, memory, disks, network and processes
+Path=/var/home/robsonnakane/.config/autostart
+Icon=none
+Exec=bash "/var/home/robsonnakane/Robson Nakane/Atualização Silverblue IfError rkhunter rsync distrobox.sh"
+Terminal=true
+Categories=System;Upgrade;ConsoleOnly;
+Keywords=system;process;task
